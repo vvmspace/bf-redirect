@@ -18,6 +18,9 @@ git clone https://github.com/vvmspace/bf-redirect
 
 ## P.S.: собрано ночью за час
 
+Замните лого в images/logo.png
+
 Пример можно посмотреть:
 
 http://4bf.vvm.space
+
