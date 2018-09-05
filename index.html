@@ -11,7 +11,10 @@
 <body>
     <div id="BF" class="container">
         <div class="row">
-            <div class="col-md-12"></div>
+            <div class="col-md-12 wrapper" v-on:click="document.location.href = redirect_url">
+                <div class="countdown" v-if="countdown > 0">{{ countdown }}</div>
+                <div class="countdown" v-if="countdown <= 0"><img src="./images/logo.png" class="logo"></div>
+            </div>
         </div>
     </div>
     <script src="./js/vue.min.js"></script>
