@@ -1,0 +1,14 @@
+.countdown{
+    font-size: 20vh;
+    margin-top: 40vh;
+    text-align: center;
+}
+
+.logo{
+    height: 100%;
+    width: auto;
+}
+
+.wrapper{
+    cursor: pointer;
+}
